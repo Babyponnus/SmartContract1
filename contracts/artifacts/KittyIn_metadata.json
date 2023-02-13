@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getKitty",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "isGestating",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isReady",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "cooldownIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nextActionAt",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "stringWithId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "birthTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "matronId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sireId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "generation",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "genes",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/zombiefeeding.sol": "KittyIn"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ZombieFactory.sol": {
+			"keccak256": "0x6ad78beafbd841df64dca1ce82ff1a62d03f5d2e0da5bb22a934a8329bb1eacb",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://712afcbdb36af1985a6515638e2d90ee1bd554f9e6a612dc2831d94ea642e825",
+				"dweb:/ipfs/Qmdemtf6dLH94fnjMnGdWJxDKSAWt2gJHgAi3QU1tLNzrZ"
+			]
+		},
+		"contracts/zombiefeeding.sol": {
+			"keccak256": "0x5e2c3fd68d8ebefe8897293e5ea169f958604972a53a2d64e9159547e58ca18a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9f39495bc286a053136ed8c45f81c00484cfd12e137f46180dc7fad9949d555c",
+				"dweb:/ipfs/QmZmocSZHmq8zkfsxy3ictqEES6HLzWBWKjjBAhFbBMi5L"
+			]
+		}
+	},
+	"version": 1
+}
